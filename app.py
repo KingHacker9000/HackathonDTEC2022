@@ -1,9 +1,6 @@
 #=====================IMPORTS=========================
 from functions import login_required, error
 from flask import Flask, render_template, request, session
-from flask_session import Session
-from simpleDB import Database
-from tempfile import mkdtemp
 #=====================================================
 
 # Create Flask Application
