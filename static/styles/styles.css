@@ -1,95 +1,57 @@
 
 #Top{
-    color: #eeeeee;
+    color: #5555559c;
     width: 100%;
-    height: 8em;
-    background-color: #476d7c;
+    height: 6em;
+    background-color: #ffffffde;
     text-align: center;
     padding: 2em;
-    border-bottom: 2px solid #4444AA;
+    border-bottom: 2px solid #dadada59;
+    font-size:medium;
+    flex-direction: row;
+    display: flex;  
+    padding-right: 10em;
 }
+
+#leftTop {
+    flex: 1;
+}
+#rightTop {
+    flex: 1;
+}
+
+
+.navbarl {
+    display: flex;
+    align-items: right;
+    width:  50%;
+    flex: 1;
+    flex-direction: row;    
+}
+
+.nav {
+    display: flex;
+    flex: 1;
+    justify-content: right;
+    align-items:center;
+}
+
 
 body{
-    background-color: #e1e8e9
+    background-color: #fafafa
 }
 
-#main{
-    width: 60%;
-    height: 30em;
-    margin: auto;
-}
-
-#form{
-    height: 80%;
-    margin: 10% auto;
-}
-
-#Bottom{
-    color: #222222;
-    width: 100%;
-    height: 8em;
-    background-color: #1d3e53;
-    padding: 2em;
-    bottom: 0;
-}
-
-.form-control
-{
-    width: 80%;
-}
-
-#terminal{
-    font-family: 'Share Tech Mono', monospace;
-    color: #6193b3;
-    background-color: #193242;
-    width: 70%;
-    margin: auto;
-    border-radius: 20px;
-    padding: 10px;
-    border: 3px dashed #6193b3
-}
-
-#terminal_display{
-    height: 20em;
-    margin-top: 20px;
-    overflow-y:scroll
-}
-
-#terminal_input{
-    color: #6193b3;
-    height: 3em;
-    border: 2px solid #6193b3;
-    border-radius: 15px;
-    background-color: #193242;
-    width: 95%;
-    margin: auto;
-    margin-right: 0
-}
-
-.textcenter{
-    text-align: center;
-}
-
-::-webkit-scrollbar {
-    width: 10px;
-  }
-  
-  /* Track */
-  ::-webkit-scrollbar-track {
-    background: #0b202c;
-  }
-  
-  /* Handle */
-  ::-webkit-scrollbar-thumb {
-    background: #2c4650;
-  }
-  
-  /* Handle on hover */
-  ::-webkit-scrollbar-thumb:hover {
-    background: #0f2736;
-  }
-
-  #page{
-    height: 40em;
+#page {
     padding-top: 5em;
-  }
+    text-align: center;
+    padding: 2em;
+    flex-direction: column;
+    display: flex; 
+}
+
+.container {
+    background-image: linear-gradient(rgb(241, 241, 241) , rgb(236, 236, 236));
+    border-bottom: 2px solid #dadada59;
+    border-radius: 10px;
+    margin-top: 3em;
+}

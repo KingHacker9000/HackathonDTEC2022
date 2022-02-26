@@ -14,6 +14,27 @@
     {% block head %}{% endblock %}
 </head>
 <body>
+    <div id="Top">
+        <div id="rightTop">
+            <img src="{{ url_for('static',filename='img/logo2.png') }}" alt="Logo">
+        </div>
+        <div id="leftTop">
+            <div class="navbar">
+                <div class="nav">
+                    <a href="/"> Home</a>
+                </div>
+                <div class="nav">
+                    Google Pixel
+                </div>
+                <div class="nav">
+                    Neuralink
+                </div>
+                <div class="nav">
+                    Our Product
+                </div>
+            </div>
+        </div>
+    </div>
     {% block body %}{% endblock %}
 </body>
 </html>
