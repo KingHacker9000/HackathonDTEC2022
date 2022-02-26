@@ -7,6 +7,7 @@ from flask_session import Session
 from simpleDB import Database
 from tempfile import mkdtemp
 from random import randint
+import random
 #=====================================================
 
 # Create Flask Application
