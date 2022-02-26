@@ -5,16 +5,21 @@
 {% block body %}
 
 <div id="page">
-<div class="container">
-    <div class="img">
-        <img src="" alt="">
-    </div>
-    <div class="info">
-        <div class="name"></div>
-        <div class="description">
+    <div class="container">
+        <div class="img">
+            <img  width="300" src="{{ url_for('static',filename='img/pill_exploded.png') }}" alt="">
+        </div>
+        <div class="info">
+            <div class="name">NEURALINK</div>
+            <div class="description">
+                <p> curing blindness by implanting in visual cortex can store memories directly by the neuralink
+                    SURGERY: LESS THAN AN HOUR, LEAVE HOSPITAL SAME DAY, WITHOUT ANESTHESIA, Currently, the main concern for Neuralink is its chip's vulnerability to hacks and malicious attacks. This particular problem will be a massive cause of concern for its users and the company because of 'digital death.
+                    Memory loss, brain damage, depression, anxiety and addiction are among the many other problems that Musk hopes Neuralink could solve with this new technology. He hopes that this technology would help us create a symbiotic relationship with AI.
+                    
+                </p>
 
-        ...<a href="product.html">Know More</a></div>
+            ...<a href="/neuralink">Know More</a></div>
+        </div>
     </div>
-</div>
 </div>
 {% endblock %}

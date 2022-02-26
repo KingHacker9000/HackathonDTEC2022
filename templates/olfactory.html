@@ -5,16 +5,21 @@
 {% block body %}
 
 <div id="page">
-<div class="container">
-    <div class="img">
-        <img src="" alt="">
+    <div class="container">
+        <div class="img">
+            <img width="300" src="{{ url_for('static',filename='img/nose.png') }}" alt="">
+        </div>
+        <div class="info">
+            <div class="name">OLFACTORY SENSORS</div>
+            <div class="description">
+                <p>With an increase in population the ratio of people losing the strength of their sensory feelings increases, although with an advancement in technology we have come up with a brilliant idea.</p>
+                <br>
+                <p>Electrodes are used in the nostrils to deliver weak electrical currents above and behind the nostrils, where these neurons are found.</p>
+                <br>
+                <p>Wearable devices that can be implanted in the nostrils or also as fashionable wearables can be used to mimic the impulses in the nostrils to deliver further sending short elictrical impulses to the brain through neurons tricking it into thinking that its smelling something. </p>
+                
+                ...<a href="/olfactorySenses">Know More</a></div>
+        </div>
     </div>
-    <div class="info">
-        <div class="name"></div>
-        <div class="description">
-
-        ...<a href="product.html">Know More</a></div>
-    </div>
-</div>
 </div>
 {% endblock %}
