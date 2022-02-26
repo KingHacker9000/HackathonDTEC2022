@@ -57,10 +57,16 @@ body{
     flex-direction: row;
 }
 
-.name {
+.img {
     flex: 1;
 }
 
 .info {
     flex: 1;
+}
+
+.name {
+    font-size:xx-large;
+    border-bottom: 2px solid #dadada59;
+    margin-bottom: 1em;
 }
